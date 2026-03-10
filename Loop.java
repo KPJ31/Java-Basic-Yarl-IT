@@ -4,6 +4,7 @@ class Loop {
 		/*
 		int x=1;
 		while(x<=5) {
+			
 			System.out.println(x +"-" + "Janarthan");
 			x++;
 		}
@@ -11,9 +12,11 @@ class Loop {
 		/*
 			   int x=1;
 			   while(x<=10){
-			   
-			      System.out.println("Odd Numbers :"+x);
-			       x=x+2;
+			   if(x%2==0) {
+				System.out.println("Odd Numbers :"+x);
+			}
+			      
+			       x++;
 			 
 			   */
 			   
