@@ -86,10 +86,10 @@ class LoopEx1{
 				/*
 				 int x=1;
 				 while(x<=5){
-				      char y=65;
-					  while(y<=69){
+				      char y=A;
+					  while(y<=E){
 							System.out.print((char)y);
-							if(y<69){
+							if(y<E){
 								System.out.print("*");
 							}
 							y+=2;
@@ -113,7 +113,7 @@ class LoopEx1{
 				 
 				 */
 				 
-				 
+				 /*
 				 int x = 5;
 				 while (x>=1) {
 					 int y = 1;
@@ -124,6 +124,7 @@ class LoopEx1{
 					 System.out.println();
 					 x--;
 				 }
+				 */
 }
 	
 	
