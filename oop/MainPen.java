@@ -1,7 +1,7 @@
 class MainPen {
 	public static void main(String[] args) {
 		pen p;
-		p=new Pen();
+		p=new pen();
 		
 		p.color="Red";
 		p.medeIn="Srilanka";
@@ -12,9 +12,9 @@ class MainPen {
 		p.write();
 		
 		System.out.println("Pen Color: "+p.color);
-		System.out.println("Pen Madein: "+p.madeIn);
+		System.out.println("Pen Madein: "+p.medeIn);
 		System.out.println("Pen Brand: "+p.brand);
 		System.out.println("Pen Height: "+p.height);
-		System.out.println("Pen Price: ")+p.price;
+		System.out.println("Pen Price: "+p.price);
 	}
 }
